@@ -18,6 +18,11 @@ adonis new yardstick --api-only
 
 or manually clone the repo and then run `npm install`.
 
+To start a dev server:
+
+```bash
+adonis serve --dev
+```
 
 ### Migrations
 
