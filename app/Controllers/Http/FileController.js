@@ -42,6 +42,8 @@ class FileController {
    * @param {Response} ctx.response
    */
   async store({ request, response }) {
+    // myUndefinedFunction()
+
     if (!request.file('file')) {
       return
     }
